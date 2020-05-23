@@ -234,7 +234,7 @@ void setup()
 
   BM_stepper.max_freq(MAX_FREQ);
   BM_stepper.min_freq(MIN_FREQ);
-  BM_stepper.speed_rpm(1.0/(60.0*24.0));
+  BM_stepper.speed_rpm(1.0/(60.0*23.933));
   BM_stepper.init<Stepper_ctr_size,Stepper_ctr_size>(Stepper_pin_A,Stepper_pin_B,2);
   
   BM_stepper.direction(Stepper::DIRECTION::FORWARD);
